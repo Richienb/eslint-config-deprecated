@@ -1,0 +1,31 @@
+{
+    "name": "eslint-config-deprecated",
+    "description": "ESLint configuration for excluding deprecated rules.",
+    "version": "0.0.0",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin",
+        "linter",
+        "lint",
+        "style"
+    ],
+    "main": "index.js",
+    "author": "Richie Bendall <richiebendall@gmail.com>",
+    "license": "MIT",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "lint": "eslint .",
+        "test": "node test"
+    },
+    "peerDependencies": {
+        "eslint": ">=3"
+    },
+    "devDependencies": {
+        "eslint": "^6.5.1",
+        "eslint-config-richienb": "^0.1.1",
+        "fast-glob": "^3.0.4"
+    }
+}
